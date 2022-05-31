@@ -17,7 +17,7 @@ while True:
     url = "https://services.nvd.nist.gov/rest/json/cve/1.0/" + id
 
     headers = {
-        'apiKey': 'b40416e7-2366-4a7f-9a83-e57962dd926f'
+        'apiKey': '###API KEY###'
     }
 
     response = requests.request("GET", url, headers=headers)
